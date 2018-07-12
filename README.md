@@ -1,2 +1,2 @@
-#Instacredit Dynamics Landings Pages Generator
-##Jason Figueroa
+# Instacredit Dynamics Landings Pages Generator
+## by Jason Figueroa
