@@ -1,0 +1,141 @@
+.wrapFormGracias {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;    
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd ;
+    transition: all 0.3s ease-out;
+}
+
+ .wrapFromOpenGracias {
+    display: block;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; 
+}
+
+ .wrapFromClosedGracias {
+    display: none;
+    animation: fadeOut 1s;
+    -moz-animation: fadeOut 1s; /* Firefox */
+    -webkit-animation: fadeOut 1s; /* Safari and Chrome */
+    -o-animation: fadeOut 1s; 
+}
+.GraciasPage {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    bottom: 0p;    
+    left: 0;
+    right: 0;
+    padding: 1% 5% 0 5%;
+    width: 100%;
+    height: 100vh;
+    background-color: #005da0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.GraciasPage h4 {
+    color: #f3f3f3;
+}
+
+.GraciasPage h3 {
+    color: #f3f3f3;
+}
+.inputForm {
+    height: 5vh;
+    border-color: #0068b3;
+    color:#003c66;
+}
+
+.button-aceptar {
+    margin: 5% 0 7% 0;
+    padding: 2% 0 0 0;
+    background-color: #189c57;
+    color: #fff;
+    font-size: 22px;
+}
+.headerImageWrapGracias{
+    margin: 0 auto;
+}
+
+@media(min-width:320px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .wrapFormGracias {
+        width: 0;
+    }
+    .GraciasPage{
+        width: 100%;
+    }
+    .button-aceptar {
+        height: 7vh;
+    }
+    .headerImageWrapGracias{
+        width: 100%;
+        margin-top: 30%;
+    }
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .wrapFormGracias {
+        width: 0;
+    }
+    .GraciasPage{
+        width: 100%;
+    }
+    .button-aceptar {
+        height: 7vh;
+    }
+    .headerImageWrapGracias{
+        width: 90%;
+        margin-top: 20%;
+    }
+
+    
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .wrapFormGracias {
+        width: 100%;
+    }
+    .GraciasPage{
+        width: 70%;
+    }
+    .headerImageWrapGracias{
+        margin-top: 15%;
+        width: 50%;
+    }
+
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .wrapFormGracias {
+        width: 100%;
+    }
+
+    .GraciasPage{
+        width: 50%;
+    }
+
+    .headerImageWrapGracias{
+        margin-top: 10%;
+        width: 50%;
+    }
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */
+    .wrapFormGracias {
+        width: 100%;
+    } 
+    .GraciasPage{
+        width: 50%;
+    }
+
+}

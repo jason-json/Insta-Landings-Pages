@@ -1,0 +1,15 @@
+.buttons {
+    margin: 0;
+    padding: 3% 0 3% 0;
+}
+.button-solicite {
+    margin: 0 0 20% 0;
+    background-color: #189c57;
+    color: #fff;
+}
+
+.button-conozca {
+    background-color: #fff;
+    border: #189c57;
+}
+

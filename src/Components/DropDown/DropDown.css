@@ -1,0 +1,99 @@
+.gradient{
+    background: #fff; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #d9d9d9
+    , #d9d9d9, #fff, #fff, #fff, #d9d9d9, #d9d9d9    );
+    margin-top: 0;
+}
+.DropDown{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    /* background-color: #fff;
+    box-shadow: 7px 0 25px -4px #ccc, -7px 0 16px -4px #ccc; */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; 
+}
+
+.btn_dropdown{
+    margin: 0 auto;
+    line-height: 1.25; 
+    background: #fff;
+    color: #005da0;
+    width: 100%;
+    border-top:   none;
+    border-right:  none;
+    border-bottom: 0.3px solid #ccc;
+    border-left:  none;
+
+}
+
+@media (min-width:300px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDown{
+        width: 100%;
+    }
+    .btn_dropdown{
+        font-size: 15px;
+        height: 11vh;
+        width: 100%
+    }
+
+
+}
+@media (min-width:321px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDown{
+        width: 100%;
+    }
+    .btn_dropdown{
+        font-size: 17px;
+        height: 11vh;
+        width: 100%
+    }
+
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .DropDown{
+        width: 100%;
+    }
+    .btn_dropdown{
+        font-size: 17px;
+        width: 100%
+    }
+    
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .DropDown{
+        width: 70%;
+    }
+    .btn_dropdown{
+        font-size: 17px;
+        width: 70%
+    }
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .DropDown{
+        width: 100%;
+    }
+    .btn_dropdown{
+        font-size: 19px;
+        width: 50%
+    }
+    
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .DropDown{
+        width: 100%;
+    }
+    .btn_dropdown{
+        font-size: 19px;
+        width: 50%
+    }
+}

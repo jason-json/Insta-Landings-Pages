@@ -1,0 +1,11 @@
+.List{
+    background-color: #f3f3f3;
+}
+.List h1 {
+    color: #189c57;
+}
+
+.wrapList{
+    margin: 0 auto;
+    width: 50%;
+}

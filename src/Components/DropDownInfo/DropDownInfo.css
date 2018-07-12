@@ -1,0 +1,249 @@
+.DropDownInfo{
+    margin: 0 auto;
+
+}
+
+.DropDownInfoShow{
+  
+   
+    transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1); 
+}
+
+
+.dropdownInput{
+    line-height: 1.25; 
+    width: 100%;
+    height: 11vh;
+    border-top:  0.1px solid #ccc;
+    border-right:  none;
+    border-bottom: 0.1px solid #ccc;
+    border-left:  none;
+
+}
+
+.fieldInfo{
+    padding: 4% 0 3% 3%;
+    line-height: 1.25; 
+    width: 100%;
+    text-align: left;
+}
+
+.contact{
+    margin: 0;
+    padding: 3% 0 3% 0;
+    width: 100%;
+    background: #fff;
+    color: #005da0;
+    /* border: 0.5px solid #005da0; */
+}
+
+.imageIcon {
+    height: 6vh;
+    width: auto;
+}
+
+.imageInfo {
+    display: inline;
+}
+
+.displayBlock {
+    display: block;
+    margin: 3% 0 03% 0;
+}
+
+.horarios{
+    margin: 0 auto;
+    padding: 3% 0 3% 20%;
+    width: 100%;
+    background-color: #ccc;
+    color: #005da0;
+}
+.buttons {
+    margin: 0;
+    padding: 3% 0 3% 0;
+}
+.button-solicite {
+    margin: 0 0 3% 0;
+    background-color: #189c57;
+    color: #fff;
+}
+
+.button-conozca {
+    padding: 0;
+    margin: 0 0 3% 0;
+    height: 8vh;
+    background-color: #fff;
+    color: #189c57;
+    border-color: #189c57;
+}
+
+
+@media (min-width:300px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDownInfo{
+        width: 100%;
+    }
+    .dropdownInput{
+        font-size: 18px;
+        background: #005da0;
+        color: #fff;
+       
+    }
+    .fieldInfo{
+        font-size: 7px;
+        height: 14vh;
+        background: #005da0;
+        color: #fff;
+        border-top:   none;
+        border-right:  none;
+        border-bottom: 0.1px solid #ccc;
+        border-left:  none;
+    }
+    .fieldInfo a h4{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .contact{
+        font-size: 15px;
+       
+    }
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+       
+        height: 7vh;
+    }
+
+}
+
+@media (min-width:321px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDownInfo{
+        width: 100%;
+    }
+    .dropdownInput{
+        font-size: 18px;
+        background: #005da0;
+        color: #fff;
+       
+    }
+    .fieldInfo{
+        font-size: 12px;
+        height: 14vh;
+        background: #005da0;
+        color: #fff;
+        border-top:   none;
+        border-right:  none;
+        border-bottom: 0.1px solid #ccc;
+        border-left:  none;
+    }
+    .fieldInfo a h4{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .contact{
+        font-size: 18px;
+       
+    }
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+        height: 7vh;
+    }
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .DropDownInfo{
+        width: 100%;
+    }
+    .dropdownInput{
+        font-size: 17px;
+        background: #fff;
+        color: #005da0;
+    }
+    .fieldInfo{
+        font-size: 12px;
+        height: 12vh;
+        background: #fff;
+        color: #005da0;
+    }
+    .fieldInfo a h4{
+        color: #005da0;
+        text-decoration: underline;
+    }
+    .contact{
+        font-size: 17px;
+       
+    }  
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+        height: 7vh;
+    }
+    
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .DropDownInfo{
+        width: 70%;
+    }
+    .dropdownInput{
+        font-size: 17px;
+    }
+    .fieldInfo{
+        font-size: 12px;
+        height: 10vh;
+    }
+    .contact{
+        font-size: 17px;
+      
+    }
+  
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .DropDownInfo{
+        width: 50%;
+    }
+    .dropdownInput{
+        font-size: 19px;
+    }
+    .fieldInfo{
+        font-size: 12px;
+        height: 9vh;
+    }
+    .contact{
+        font-size: 19px;
+    }
+    
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .DropDownInfo{
+        width: 50%;
+    }
+    .dropdownInput{
+        font-size: 19px;
+    }
+    .fieldInfo{
+        font-size: 12px;
+        height: 9vh;
+        border: none;
+        border-top:   none;
+        border-right:  none;
+        border-bottom: 0.1px solid #005da0;
+        border-left:  none;
+    }
+    .contact{
+        font-size: 19px;
+       
+    }
+}

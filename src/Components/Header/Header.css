@@ -1,0 +1,246 @@
+.headerPhones{
+    background: #189c57; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #15844b, #15844b, #189c57, #189c57, #189c57, #15844b, #15844b); 
+}
+.headerPhonesWrap {
+    margin: 0 auto;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    width: 50%;
+}
+.headerPhones  a  h3 {
+    display: inline;
+    margin: 3.5%;
+    color: white;
+    font-size: 18px;
+}
+
+.headerImage{
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../../images/bannerDesktop.png') no-repeat center ;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    padding: 0 0 0 0; 
+   
+}
+.headerImageWrap{
+    margin: 0 auto;
+  
+}
+.headerImageWrap h3{
+    color: #fff;
+    margin: 1% 0 0 7%;
+}
+
+.headerImageWrap h2{
+    color: #fff;
+    margin: 1% 0 0 0;
+}
+
+.img-headerImageWrap{
+    height: auto;
+}
+
+.headerTitle {
+    background: #005da0; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, #005999
+    , #005999, #005da0, #005da0, #005da0, #005999, #005999    ); 
+    color: #fff;
+    min-height: 9vh; 
+    /* box-shadow: 0 7px 35px -4px gray; */
+
+}
+
+.title {
+   margin: 0 auto;
+   padding: 0;
+   
+}
+
+.titleText1 {
+    margin: 1% 0 0 0;
+    padding: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; 
+}
+
+
+.titleText2 {
+    margin: 0 0 1% 0;
+    padding: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; 
+}
+
+.img-header {
+    margin:0;
+    height: auto;
+    width: 3%;
+}
+
+@media (min-width:300px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .title {
+        width: 100%;
+    }
+    h1{
+        font-size: 20px;
+        
+    }
+ 
+    .headerTitle h3 {
+        font-size: 20px;
+    }
+    .headerImageWrap{
+        width: 100%;
+    }
+    .img-headerImageWrap{
+        width: 50%;
+    }
+    .headerImageWrap{
+        margin-top: 30%;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s; /* Firefox */
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -o-animation: fadein 2s; 
+    }
+    .headerImageWrap h2{
+        font-size: 25px;
+    }
+    .headerImageWrap h3{
+        font-size: 22px;
+    }
+    .headerImage{
+        background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../../images/bannerMobile.jpg') no-repeat center ;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        padding: 0 0 0 0; 
+       
+    }
+  
+}
+@media (min-width:321px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .title {
+        width: 100%;
+    }
+    h1{
+        font-size: 20px;
+        
+    }
+ 
+    .headerTitle h3 {
+        font-size: 23px;
+    }
+    .headerImageWrap{
+        width: 100%;
+    }
+    .img-headerImageWrap{
+        width: 60%;
+    }
+    .headerImageWrap{
+        margin-top: 30%;
+        animation: fadein 1s;
+        -moz-animation: fadein 1s; /* Firefox */
+        -webkit-animation: fadein 1s; /* Safari and Chrome */
+        -o-animation: fadein 1s; 
+    }
+    .headerImageWrap h3{
+        font-size: 30px;
+    }
+    .headerImageWrap h3{
+        font-size: 24px;
+    }
+  
+}
+
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .title {
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+    .headerImageWrap{
+        margin-top: 20%;
+    }
+    .headerImageWrap{
+        width: 90%;
+    }
+    .img-headerImageWrap{
+        width: 60%;
+    }
+  
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .title {
+        width: 70%;
+    }
+    h1{
+        font-size: 34px;
+        
+    }
+ 
+    .headerImageWrap{
+        margin-top: 15%;
+        width: 50%;
+    }
+
+    .img-headerImageWrap{
+        width: 40%;
+    }
+    .headerPhonesWrap{
+        animation: rightToLeft 1s;
+        -moz-animation: rightToLeft 1s; /* Firefox */
+        -webkit-animation: rightToLeft 1s; /* Safari and Chrome */
+        -o-animation: rightToLeft 1s; 
+    }
+    .headerImageWrap{
+        animation: leftToRight 1s;
+        -moz-animation: leftToRight 1s; /* Firefox */
+        -webkit-animation: leftToRight 1s; /* Safari and Chrome */
+        -o-animation: leftToRight 1s; 
+    }
+    .headerImage{
+        background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../../images/bannerDesktop.png') no-repeat center ;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        padding: 0 0 0 0; 
+       
+    }
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .title {
+        width: 50%;
+    }
+    h1{
+        font-size: 36px;
+        
+    }
+    .headerImageWrap{
+        margin-top: 10%;
+        width: 50%;
+    }
+  
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .title {
+        width: 50%;
+    }
+    h1{
+        font-size: 36px;
+        
+    }
+}
+

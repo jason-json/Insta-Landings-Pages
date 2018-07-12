@@ -1,0 +1,30 @@
+{
+  "name": "sucursales",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://www.instacredit.com/sucursales",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "query-string": "^6.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-google-tag-manager": "^2.2.1",
+    "react-gtm-module": "^2.0.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-tag-manager": "^2.0.0-beta.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Jason Figueroa",
+  "license": "ISC"
+}

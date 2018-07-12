@@ -1,0 +1,215 @@
+.DropDownInfoDesktop{
+    margin: 0 auto;
+    color: #404040;
+
+}
+
+
+.dropdownInputDesktop{
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.25; 
+    width: 100%;
+    height: 6vh;
+    border:none;
+    text-align: left;
+    background: none;
+
+}
+
+.fieldInfoDesktop{
+    margin: 0 0 2% 0;
+    padding: 4% 0 3% 3%;
+    line-height: 1.25; 
+    width: 100%;
+    text-align: left;
+}
+
+.contact{
+    margin: 0;
+    padding: 3% 0 3% 0;
+    width: 100%;
+    background: #fff;
+    color: #005da0;
+    /* border: 0.5px solid #005da0; */
+}
+
+.imageIcon {
+    height: 6vh;
+    width: auto;
+}
+
+.imageInfo {
+    display: inline;
+}
+
+.displayBlock {
+    display: block;
+    margin: 3% 0 03% 0;
+}
+
+.horariosDesktop{
+    margin: 0 auto;
+    padding: 3% 0 3% 20%;
+    width: 100%;
+    text-align:left;
+    color: #005da0;
+}
+.buttons {
+    margin: 0;
+    padding: 3% 0 3% 0;
+}
+.button-solicite {
+    margin: 0 0 3% 0;
+    background-color: #189c57;
+    color: #fff;
+}
+
+.button-conozca {
+    padding: 2.3%;
+    height: 8vh;
+    background-color: #fff;
+    color: #189c57;
+    border-color: #189c57;
+    margin: 0 0 3% 0;
+}
+
+
+@media (min-width:300px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDownInfoDesktop{
+        width: 100%;
+    }
+ 
+    .fieldInfoDesktop{
+        font-size: 7px;
+        height: 14vh;
+        background: #005da0;
+        color: #fff;
+      
+    }
+    .fieldInfoDesktop a h4{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .contact{
+        font-size: 15px;
+       
+    }
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+        height: 7vh;
+    }
+
+}
+
+@media (min-width:321px)  { 
+    /* smartphones, iPhone, portrait 450x320 phones */ 
+    .DropDownInfoDesktop{
+        width: 100%;
+    }
+  
+    .fieldInfoDesktop{
+        font-size: 12px;
+        height: 14vh;
+        background: #005da0;
+        color: #fff;
+      
+    }
+    .fieldInfoDesktop a h4{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .contact{
+        font-size: 18px;
+       
+    }
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+        height: 7vh;
+    }
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .DropDownInfoDesktop{
+        width: 100%;
+    }
+    .fieldInfoDesktop{
+        font-size: 12px;
+        height: 12vh;
+        background: #fff;
+        color: #005da0;
+    }
+    .fieldInfoDesktop a h4{
+        color: #005da0;
+        text-decoration: underline;
+    }
+    .contact{
+        font-size: 17px;
+       
+    }  
+    .button-solicite {
+        height: 7vh;
+    }
+    .button-conozca {
+        height: 7vh;
+    }
+    
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .DropDownInfoDesktop{
+        width: 70%;
+    }
+  
+    .fieldInfoDesktop{
+        font-size: 12px;
+        height: 10vh;
+    }
+    .contact{
+        font-size: 17px;
+      
+    }
+   
+}
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .DropDownInfoDesktop{
+        width: 50%;
+    }
+    .dropdownInputDesktop{
+        font-size: 19px;
+    }
+    .fieldInfoDesktop{
+    
+        font-size: 12px;
+        height: 9vh;
+    }
+    .contact{
+        font-size: 19px;
+    }
+    
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .DropDownInfoDesktop{
+        width: 50%;
+    }
+  
+    .fieldInfoDesktop{
+        font-size: 12px;
+        height: 9vh;
+       
+    }
+    .contact{
+        font-size: 19px;
+       
+    }
+}
